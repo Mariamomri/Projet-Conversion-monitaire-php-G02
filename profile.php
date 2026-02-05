@@ -31,7 +31,7 @@ if (!is_connected()) {
                                 if ($_SESSION['pseudo'] === "Mariam") {
                                   echo "Omri";
                                 } elseif ($_SESSION['pseudo'] === "Hajar") {
-                                  echo "Hajar stp entrudui ton nom de famille dans le fichier profil.php";
+                                  echo "Hajar stp entruduir ton nom de famille dans le fichier profil.php";
                                 }
                                 ?></p>
 
