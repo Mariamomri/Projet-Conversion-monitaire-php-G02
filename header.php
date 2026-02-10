@@ -17,7 +17,8 @@ require_once __DIR__ . "/functions/autentifications.php";
   <meta name="description" content="Projet php decembre 2025">
   <meta name="keywords" content="HTML, CSS, PHP Responsive">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
+  <!-- <link rel="stylesheet" href="responsive.css"> -->
+
 
   <!-- link bootstrap -->
   <link

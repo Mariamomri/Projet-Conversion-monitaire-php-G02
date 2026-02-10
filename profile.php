@@ -14,7 +14,7 @@ if (!is_connected()) {
 <main class="main">
   <section class="Profil">
     <section class="smain">
-      <img src="assets/images/1af8d3b487b77085d5288814f151e1de_w200.webp" alt="coriandoli" class="coriandoli">
+      <img src="....." alt="coriandoli" class="coriandoli">
       <h1>Bienvenue <?php echo $_SESSION['pseudo']; ?> !</h1>
       <img src="assets/images/profilf.png" alt="img profil" width="150px" class="img-profil">
     </section>
