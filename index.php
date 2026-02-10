@@ -17,12 +17,13 @@ require "header.php";
 ?>
 
 <main class="main wrapper sfondo">
-  <section>
+  <section class="bienvenue">
     <h1>Bienvenue sur le site de conversion monitaire</h1>
     <br>
-    <!-- Immagine semplice -->
-
     <p>Découvrez notre site de conversion monétaire simple, rapide et intuitif.</p>
+
+    <div><img class="soldi" src="l102-0231-money-exchange-led-sign.gif" alt="img monnaie" width="500px"></div>
+
   </section>
 </main>
 

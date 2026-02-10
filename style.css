@@ -185,9 +185,25 @@ nav a.active {
 .sfondo {
   background: url("Untitleddesign1-ezgif.com-optimize-1.gif") no-repeat center center fixed;
   background-size: cover;
-
 }
 
+.bienvenue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  gap: 15px;
+  margin-top: 100px;
+}
+
+.soldi {
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 /* form */
 form {
