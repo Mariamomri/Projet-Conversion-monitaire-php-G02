@@ -8,18 +8,18 @@
 
 <footer>
   <div class="am">
-    <p> &copy; <?= date('Y') ?> Cfitech, Mariam & Hajar</p>
+    <p> &copy; <?= date('Y') ?> Cfitech</p>
   </div>
 
   <div class="footerlink am">
     <!-- home -->
     <a href="./index.php" class="nav-item<?php if (isset($nav) && $nav === "index"): ?> active<?php endif ?>">Accueil</a>
 
-    <!-- debug -->
-    <a href="./sessionActuelle.php" class="nav-item<?php if (isset($nav) && $nav === "sessionActuelle"): ?> active<?php endif ?>">......</a>
+    <!-- bourse -->
+    <a href="./bourse.php" class="nav-item<?php if (isset($nav) && $nav === "bourse"): ?> active<?php endif ?>">Bourse</a>
 
     <!-- reset -->
-    <a href="./resetSessions.php" class="nav-item<?php if (isset($nav) && $nav === "resetSessions"): ?> active<?php endif ?>">......</a>
+    <a href="#" class="nav-item<?php if (isset($nav) && $nav === "contact"): ?> active<?php endif ?>">Contact</a>
   </div>
 
   <div class="am">
