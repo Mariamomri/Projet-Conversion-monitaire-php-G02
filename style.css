@@ -76,14 +76,14 @@ h2 {
 
 
 
-/* HEADER + NAVIGATION */
+/* header */
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 2rem;
   background: #ffffff;
+  padding: 4px 10px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -94,7 +94,7 @@ h2 {
 .logo {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 0.8rem;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
@@ -105,7 +105,7 @@ h2 {
 
 .logo img {
   transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  max-height: 50px;
+  max-height: 35px;
   cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ nav a {
   margin: 0 20px;
   font-weight: 500;
   transition: color 0.2s;
-  padding: 10px 15px;
+  padding: 5px 10px;
   border-bottom: 2px solid transparent;
 }
 
@@ -150,7 +150,7 @@ nav a.active {
 
 .menu a {
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 8px 10px;
   display: block;
   color: #192965;
   transition: color 0.2s;
@@ -179,6 +179,13 @@ nav a.active {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* main */
+.sfondo {
+  background: url("Untitleddesign1-ezgif.com-optimize-1.gif") no-repeat center center fixed;
+  background-size: cover;
+
 }
 
 
