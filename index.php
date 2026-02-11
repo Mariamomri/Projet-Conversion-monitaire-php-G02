@@ -16,14 +16,14 @@ $nav = "index";
 require "header.php";
 ?>
 
-<main class="main wrapper">
-  <section>
-    <h1>Accueil</h1>
+<main class="main wrapper sfondo">
+  <section class="bienvenue">
+    <h1>Bienvenue sur le site de conversion monitaire</h1>
     <br>
-    <!-- Immagine semplice -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Solar_sys.jpg" width="300">
-    <br>
-    <p>Bienvenue sur le site de conversion monitaire</p>
+    <p>Découvrez notre site de conversion monétaire simple, rapide et intuitif.</p>
+
+    <div><img class="soldi" src="l102-0231-money-exchange-led-sign.gif" alt="img monnaie" width="500px"></div>
+
   </section>
 </main>
 

@@ -44,18 +44,14 @@ if (is_connected()) {
   <section>
     <div class="login">
       <h1>Login</h1>
-      <br>
       <section class="card">
         <form action="./login.php" method="POST">
-          <input type="text" name="pseudo" placeholder="Entrez votre pseudo">
-          <br>
-          <input type="password" name="password" placeholder="Entrez votre password">
-          <br>
+          <input type="text" name="pseudo" placeholder="Entrez votre pseudo" required>
+          <input type="password" name="password" placeholder="Entrez votre password" required>
           <button type="submit" class="btn-form-log">Se connecter</button>
         </form>
       </section>
     </div>
-
   </section>
 </main>
 
