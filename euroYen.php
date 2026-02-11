@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <option value="to_euro">Yen → Euro</option>
   </select>
 
-  <button type="submit">Convertir</button>
+  <button type="submit" class="calcola">Convertir</button>
 </form>
 
 <?php
