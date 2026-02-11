@@ -297,6 +297,20 @@ select:focus {
 
 /* button */
 
+.calcola {
+  color: white;
+  background-color: #c9a961;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: "Playwrite HU", cursive;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 .btn {
   padding: 10px 20px;
   border: none;

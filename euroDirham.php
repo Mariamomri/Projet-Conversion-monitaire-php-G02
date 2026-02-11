@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <option value="to_euro">Dirham → Euro</option>
   </select>
 
-  <button type="submit">Convertir</button>
+  <button type="submit calcola">Convertir</button>
 </form>
 
 <?php if (isset($risultato)) echo "<p>Résultat : $risultato</p>"; ?>
