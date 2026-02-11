@@ -3,7 +3,7 @@ $title = "bourse";
 $nav = "bourse";
 require "header.php"; ?>
 
-<main class="main wrapper">
+<main class="main wrapper sfondo">
 
   <section class="bourse-intro">
     <h1>Bourse</h1>
