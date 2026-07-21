@@ -70,7 +70,7 @@ h2 {
 .text-index {
   margin: 5% 15%;
   text-align: center;
-  color: #192965;
+  color: white;
   font-weight: bold;
 }
 
@@ -119,7 +119,7 @@ nav {
 }
 
 nav a {
-  color: #192965;
+  color: white;
   text-decoration: none;
   font-size: 1.1rem;
   margin: 0 20px;
@@ -152,7 +152,7 @@ nav a.active {
   text-decoration: none;
   padding: 8px 10px;
   display: block;
-  color: #192965;
+  color: #c9a961;
   transition: color 0.2s;
 }
 
@@ -705,20 +705,6 @@ li {
   width: 70%;
   height: 100%;
   pointer-events: none;
-}
-
-/* classi da sistemare*/
-.smain {
-  position: relative;
-}
-
-.coriandoli {
-  position: absolute;
-  z-index: 1;
-  left: 15%;
-  top: -80px;
-  width: 70%;
-  height: 100%;
 }
 
 
